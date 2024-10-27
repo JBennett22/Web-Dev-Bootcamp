@@ -1,0 +1,25 @@
+/* Write your code here: */
+
+h1, h2 {
+    color: blueviolet;
+}
+
+/* parent > child -- to select a more specific element without its own class/id */
+.box > p {
+    color: firebrick;
+}
+
+/* descendent selector */
+.box li {
+    color: blue;
+}
+
+/* chaining -- if element has all */
+li.done {
+    color: seagreen;
+}
+
+/* combining combiners */
+ul p.done {
+    font-size: 0.5rem;
+}
