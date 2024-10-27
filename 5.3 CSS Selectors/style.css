@@ -1,0 +1,30 @@
+ol {
+  margin-left: -40px;
+  margin-top: -20px;
+  list-style-position: inside;
+}
+
+/* Write your CSS below, don't change the rules above. */
+p {
+  color: red;
+}
+
+.note {
+  font-size: 20px;
+}
+
+#id-selector-demo {
+  color: green;
+}
+
+li[value="4"] {
+  color: blue;
+}
+
+* {
+  text-align: center;
+}
+
+/* .class to select class, #id to select id. class can be assigned to many elements, id should be only one element.
+  html-element[attribute] to select and attribute, ex: p[draggable] or p[draggable="false"]
+  * is a universal selector, applies to everything*/
